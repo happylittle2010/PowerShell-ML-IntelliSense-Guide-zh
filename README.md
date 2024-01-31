@@ -114,7 +114,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/markbull.omp.json" | Invoke
 Install-Module posh-git -Scope CurrentUser -Force
 ```
 安装完成后，在 Powershell 配置文件里添加如下内容：
-```
+```ps1
 # 导入智能提示模块
 Import-Module posh-git
 ```
